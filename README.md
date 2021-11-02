@@ -8,7 +8,7 @@
 
 # React Navigations
 
-View Storybook at: https://master--61797fbed9a2d4003a4bc570.chromatic.com
+View Storybook at: https://master--618170a92697cd003a33e813.chromatic.com
 
 ### Where to write components?
 
@@ -67,7 +67,7 @@ react-modals is freely distributable under the terms of the [MIT license][licens
 [npm-downloads-url]: https://npmcharts.com/compare/@reusejs/react-modals?minimal=true
 
 [view-storybook-image]: https://img.shields.io/badge/View-Storybook-F59E0B.svg
-[view-storybook-url]: https://master--61797fbed9a2d4003a4bc570.chromatic.com
+[view-storybook-url]: https://master--618170a92697cd003a33e813.chromatic.com
 
 [join-discord-image]: https://img.shields.io/badge/Join-Discord-7389D8.svg
 [join-discord-url]: https://discord.gg/VUa9SHvvDb
