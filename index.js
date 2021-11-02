@@ -1,4 +1,4 @@
-import Topbar from "./src/Topbar";
-import Sidebar from "./src/Sidebar";
+import Confirm from "./src/Confirm";
+import Simple from "./src/Simple";
 
-export { Sidebar, Topbar };
+export { Confirm, Simple };

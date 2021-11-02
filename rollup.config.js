@@ -1,9 +1,10 @@
 import resolve from "@rollup/plugin-node-resolve";
 import babel from "@rollup/plugin-babel";
 import postcss from "rollup-plugin-postcss";
+import commonjs from "rollup-plugin-commonjs";
 
 export default {
-  input: ["index.js", "src/Sidebar/index.js", "src/Topbar/index.js"],
+  input: ["index.js", "src/Confirm/index.js", "src/Simple/index.js"],
   output: [
     {
       dir: "build",
