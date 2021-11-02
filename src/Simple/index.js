@@ -4,12 +4,12 @@ import Closable from "../closable";
 import "../tailwind.css";
 import ModalWrapper from "../modalWrapper";
 
-function ClosableModal({ showModal, resolveModal, config }) {
+function ClosableModal({ visible, onAction, config }) {
   return (
-    <ModalWrapper showModal={showModal} resolveModal={resolveModal}>
+    <ModalWrapper showModal={visible} resolveModal={onAction}>
       <config.ModalContent
-        showModal={showModal}
-        resolveModal={resolveModal}
+        showModal={visible}
+        resolveModal={onAction}
         config={config}
       />
     </ModalWrapper>

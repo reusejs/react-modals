@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 
 const Closable = (Component) => ({ ...props }) => {
-  const [showModal, setShowModal] = useState(true);
+  const [visible, setVisible] = useState(true);
 
-  const resolveModal = (value) => {
-    setShowModal(false);
+  const onAction = (value) => {
+    setVisible(false);
     props.resolve(value);
   };
 
-  return (
-    <Component resolveModal={resolveModal} showModal={showModal} {...props} />
-  );
+  return <Component onAction={onAction} visible={visible} {...props} />;
 };
 
 export default Closable;
