@@ -20,6 +20,7 @@ export default {
       exclude: "node_modules/**",
     }),
     resolve(),
+    commonjs({}),
     postcss({
       config: {
         path: "./postcss.config.js",

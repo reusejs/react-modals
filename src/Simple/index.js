@@ -1,7 +1,5 @@
-import { ExclamationIcon, XIcon } from "@heroicons/react/outline";
 import React, { useRef } from "react";
-import { Dialog, Transition } from "@headlessui/react";
-import mountComponent from "../mountComponent.js";
+import { mountComponent } from "@reusejs/react-utils";
 import Closable from "../closable";
 import "../tailwind.css";
 import ModalWrapper from "../modalWrapper";
