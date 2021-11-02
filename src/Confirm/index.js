@@ -1,7 +1,7 @@
+import React from "react";
 import { useRef } from "react";
 import { Dialog } from "@headlessui/react";
 import { ExclamationIcon } from "@heroicons/react/outline";
-// import mountComponent from "../mountComponent.js";
 import { mountComponent } from "@reusejs/react-utils";
 import Closable from "../closable";
 import "../tailwind.css";
